@@ -150,7 +150,7 @@ const styles = StyleSheet.create({
 		position: "relative",
 		justifyContent: "center",
 		alignItems: "center",
-		paddingBottom: 20,
+		paddingBottom: 40,
 	},
 	titleView: {
 		width: "100%",
@@ -222,7 +222,7 @@ const styles = StyleSheet.create({
 		borderRadius: 15,
 		elevation: 20,
 		backgroundColor: theme.BACKGROUND,
-		marginVertical: 10,
+		marginVertical: theme.SPACING * 1.5,
 	},
 	pastTitle: {
 		fontSize: theme.NORMALFONT,
